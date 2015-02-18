@@ -1,0 +1,41 @@
+#numero{
+
+    border:solid;
+    border-color:#000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    color:#000000;
+    background-color: #A9A9A9;
+}
+
+#oper{
+    border:solid;
+    border-color:#000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    color:red;
+    background-color: #A9A9A9;
+}
+
+#fondo{
+
+    border:solid;
+    border-color:#000000;
+    border-radius: 10px;
+    margin: 20 0 0 30;  
+    padding: 20px;
+    width: 250px;
+    
+    background-color: aqua;
+}
+
+#display{
+    background-color: gainsboro;
+    border:solid;
+    border-color:#000000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+}
