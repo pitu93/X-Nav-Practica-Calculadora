@@ -20,23 +20,24 @@ jQuery(document).ready(function(){
 
     $('.igual').click(function(){
         $('#display').html(eval(operando+operador+$('#display').html()));
-    })  
+    })
+
+    $('.signo').click(function(){
+        $('#display').html(parseFloat($('#display').html())*-1);
+        
+    })   
 
     $('.c').click(function(){
         $('#display').html(0);   
     })
 
     $(document).keypress(function(e) {
-        console.log(e.key);
-        if(parseInt(e.key)){
+        if(parseInt(e.key) | e.key==0){
             if ($('#display').html()!=0){
                 $('#display').html($('#display').html()+e.key); 
             }else{
                 $('#display').html(e.key);
             }
-            
-        }else if(e.key=='Enter'){
-            $('#display').html(eval(operando+operador+$('#display').html()));
         }
     })  
 
