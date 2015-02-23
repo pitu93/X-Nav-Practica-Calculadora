@@ -1,21 +1,11 @@
-#numero{
+button{
 
     border:solid;
     border-color:#000000;
     border-radius: 10px;
-    padding: 20px;
-    width: 350px;
+    padding: 10px;
+    width: 58px;
     color:#000000;
-    background-color: #A9A9A9;
-}
-
-#oper{
-    border:solid;
-    border-color:#000000;
-    border-radius: 10px;
-    padding: 20px;
-    width: 350px;
-    color:red;
     background-color: #A9A9A9;
 }
 
